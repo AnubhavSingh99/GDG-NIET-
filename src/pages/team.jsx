@@ -9,199 +9,191 @@ import { FaInstagram } from "react-icons/fa";
 
 const TeamPage = () => {
   const teamMembers = [
-    {
-      name: "Vanshika Pandey",
-      role: "GDG Lead",
-      image: "23.png",
-      linkedin: "https://www.linkedin.com/in/vanshika-pandey369/",
-      github: <FaGithub />,
-      insta: "https://instagram.com/mohit",
-    },
-    {
-      name: "Ankit Raj",
-      role: "GDG Co-Lead",
-      image: "17.png",
-      linkedin: "https://www.linkedin.com/in/ankitrpathak/",
-      github: <FaGithub />,
-      insta: "https://instagram.com/arjun",
-    },
-    {
-      name: "Toshak Bhat",
-      role: "GDG Co-Lead",
-      image: "3.png",
-      linkedin: "https://www.linkedin.com/in/toshakbhat",
-      github: <FaGithub />,
-      insta: "https://instagram.com/neha",
-    },
-    {
-      name: "Pihu Gupta",
-      role: "Director Of Operations",
-      image: "10.png",
-      linkedin: "https://www.linkedin.com/in/pihu-gupta-750435280",
-      github: <FaGithub />,
-      insta: "https://instagram.com/siddharth",
-    },
-    {
-      name: "Vivek Tripathi",
-      role: "Technical Team Organizer",
-      image: "1.png",
-      linkedin: "https://www.linkedin.com/in/vivek-tripathi-319677249",
-      github: <FaGithub />,
-      insta: "https://instagram.com/anusha",
-    },
-    {
-      name: "Vaishnavi Sharma",
-      role: "Design Head",
-      image: "2.png",
-      linkedin: "https://www.linkedin.com/in/vaishnavish05",
-      github: <FaGithub />,
-      insta: "https://instagram.com/rajesh",
-    },
-    {
-      name: "Tarun Gupta",
-      role: "Technical Team",
-      image: "4.png",
-      linkedin: "https://www.linkedin.com/in/tarun-gupta-44888b250",
-      github: <FaGithub />,
-      insta: "https://instagram.com/vikas",
-    },
-    {
-      name: "Anubhav Singh",
-      role: "Technical Team",
-      image: "14.png",
-      linkedin: "https://www.linkedin.com/in/anubhav-singh99/",
-      github: <FaGithub />,
-      insta: "https://instagram.com/shruti",
-    },
-    {
-      name: "Suryansh Gupta",
-      role: "Technical Team",
-      image: "5.png",
-      linkedin: "www.linkedin.com/in/suryanshgupta483",
-      github: <FaGithub />,
-      insta: "https://instagram.com/priya",
-    },
-    {
-      name: "Shubhankar Nath",
-      role: "Technical Team",
-      image: "6.png",
-      linkedin: "https://www.linkedin.com/in/shubhankar-nath-ab8549265/",
-      github: <FaGithub />,
-      insta: "https://instagram.com/amit",
-    },
-    {
-      name: "Sarvesh Mishra",
-      role: "Technical Team",
-      image: "7.png",
-      linkedin: "https://www.linkedin.com/in/sarveshji/",
-      github: <FaGithub />,
-      insta: "https://instagram.com/riya",
-    },
-    {
-      name: "Rishi Ranjan",
-      role: "Technical Lead",
-      image: "8.png",
-      linkedin: "linkedin.com/in/rishi-rih",
-      github: <FaGithub />,
-      insta: "https://instagram.com/karan",
-    },
-    {
-      name: "Mansi Pandey",
-      role: "Event Management",
-      image: "9.png",
-      linkedin: "None",
-      github: <FaGithub />,
-      insta: "https://instagram.com/meera",
-    },
-    {
-      name: "Manasvi Goel",
-      role: "Design Team",
-      image: "11.png",
-      linkedin: "www.linkedin.com/in/manasvigl",
-      github: <FaGithub />,
-      insta: "https://instagram.com/alok",
-    },
-    {
-      name: "Kapil Singh",
-      role: "Design Team",
-      image: "12.png",
-      linkedin: "https://www.linkedin.com/in/kapil-singh-8a6574203",
-      github: <FaGithub />,
-      insta: "https://instagram.com/pooja",
-    },
-    {
-      name: "Dhruv Gupta",
-      role: "Technical Team",
-      image: "13.png",
-      linkedin: "https://www.linkedin.com/in/dhruv-gupta-16g",
-      github: <FaGithub />,
-      insta: "https://instagram.com/nikhil",
-    },
-    {
-      name: "Dev Goyal",
-      role: "Social Media Head",
-      image: "15.png",
-      linkedin: "https://www.linkedin.com/in/devgoyalg/",
-      github: <FaGithub />,
-      insta: "https://instagram.com/rohan",
-    },
-    {
-      name: "Arshia Talwar",
-      role: "Design Head",
-      image: "16.png",
-      linkedin: "https://www.linkedin.com/in/arshia-talwar-151a9a258",
-      github: <FaGithub />,
-      insta: "https://instagram.com/ishita",
-    },
-    {
-      name: "Amit Kumar Mishra",
-      role: "Technical Team",
-      image: "18.png",
-      linkedin: "https://www.linkedin.com/in/amit-mishra-330aa2251/",
-      github: <FaGithub />,
-      insta: "https://instagram.com/sanya",
-    },
-    {
-      name: "Aman Sahi",
-      role: "Technical Team",
-      image: "19.png",
-      linkedin: "https://www.linkedin.com/in/aman-sahi-19a106285/",
-      github: <FaGithub />,
-      insta: "https://instagram.com/raghav",
-    },
-    {
-      name: "Aman Bajpai",
-      role: "Event Management",
-      image: "20.png",
-      linkedin: "https://www.linkedin.com/in/aman-bajpai-651a87266",
-      github: <FaGithub />,
-      insta: "https://instagram.com/kanika",
-    },
-    {
-      name: "Aditya Kumar Jha",
-      role: "Event Management",
-      image: "21.png",
-      linkedin: "https://in.linkedin.com/in/adityajha12",
-      github: <FaGithub />,
-      insta: "https://instagram.com/harshdeep",
-    },
-    {
-      name: "Ansh Pratap",
-      role: "Design Team",
-      image: "22.png",
-      linkedin: "https://www.linkedin.com/in/ansh-pratap-93083133b",
-      github: <FaGithub />,
-      insta: "https://instagram.com/sneha",
-    },
-    {
-      name: "Abhinav Maurya",
-      role: "Design Team",
-      image: "24.png",
-      linkedin: "https://www.linkedin.com/in/abhinav-maurya-356136315",
-      github: <FaGithub />,
-      insta: "https://instagram.com/aarav",
-    },
-  ];
+  {
+    name: "Vanshika Pandey",
+    role: "GDG Lead",
+    image: "23.png",
+    linkedin: "https://www.linkedin.com/in/vanshika-pandey369/",
+    github: <FaGithub />,
+    insta: "https://instagram.com/mohit"
+  },
+  {
+    name: "Ankit Raj",
+    role: "GDG Co-Lead",
+    image: "17.png",
+    linkedin: "https://www.linkedin.com/in/ankitrpathak/",
+    github: <FaGithub />,
+    insta: "https://instagram.com/arjun"
+  },
+  {
+    name: "Toshak Bhat",
+    role: "GDG Co-Lead",
+    image: "3.png",
+    linkedin: "https://www.linkedin.com/in/toshakbhat",
+    github: <FaGithub />,
+    insta: "https://instagram.com/neha"
+  },
+  {
+    name: "Pihu Gupta",
+    role: "Director Of Operations",
+    image: "10.png",
+    linkedin: "https://www.linkedin.com/in/pihu-gupta-750435280",
+    github: <FaGithub />,
+    insta: "https://instagram.com/siddharth"
+  },
+  {
+    name: "Rishi Ranjan",
+    role: "Technical Lead",
+    image: "8.png",
+    linkedin: "linkedin.com/in/rishi-rih",
+    github: <FaGithub />,
+    insta: "https://instagram.com/karan"
+  },
+  {
+    name: "Vivek Tripathi",
+    role: "Technical Co-lead",
+    image: "1.png",
+    linkedin: "https://www.linkedin.com/in/vivek-tripathi-319677249",
+    github: <FaGithub />,
+    insta: "https://instagram.com/anusha"
+  },
+  {
+    name: "Dev Goyal",
+    role: "Social Media Head",
+    image: "15.png",
+    linkedin: "https://www.linkedin.com/in/devgoyalg/",
+    github: <FaGithub />,
+    insta: "https://instagram.com/rohan"
+  },
+  {
+    name: "Vaishnavi Sharma",
+    role: "Design Head",
+    image: "2.png",
+    linkedin: "https://www.linkedin.com/in/vaishnavish05",
+    github: <FaGithub />,
+    insta: "https://instagram.com/rajesh"
+  },
+  {
+    name: "Arshia Talwar",
+    role: "Design Head",
+    image: "16.png",
+    linkedin: "https://www.linkedin.com/in/arshia-talwar-151a9a258",
+    github: <FaGithub />,
+    insta: "https://instagram.com/ishita"
+  },
+  {
+    name: "Amit Kumar Mishra",
+    role: "Technical Team",
+    image: "18.png",
+    linkedin: "https://www.linkedin.com/in/amit-mishra-330aa2251/",
+    github: <FaGithub />,
+    insta: "https://instagram.com/sanya"
+  },
+  {
+    name: "Anubhav Singh",
+    role: "Technical Team",
+    image: "14.png",
+    linkedin: "https://www.linkedin.com/in/anubhav-singh99/",
+    github: <FaGithub />,
+    insta: "https://instagram.com/shruti"
+  },
+  {
+    name: "Dhruv Gupta",
+    role: "Technical Team",
+    image: "13.png",
+    linkedin: "https://www.linkedin.com/in/dhruv-gupta-16g",
+    github: <FaGithub />,
+    insta: "https://instagram.com/nikhil"
+  },
+  {
+    name: "Sarvesh Mishra",
+    role: "Technical Team",
+    image: "7.png",
+    linkedin: "https://www.linkedin.com/in/sarveshji/",
+    github: <FaGithub />,
+    insta: "https://instagram.com/riya"
+  },
+  {
+    name: "Suryansh Gupta",
+    role: "Technical Team",
+    image: "5.png",
+    linkedin: "www.linkedin.com/in/suryanshgupta483",
+    github: <FaGithub />,
+    insta: "https://instagram.com/priya"
+  },
+  {
+    name: "Tarun Gupta",
+    role: "Technical Team",
+    image: "4.png",
+    linkedin: "https://www.linkedin.com/in/tarun-gupta-44888b250",
+    github: <FaGithub />,
+    insta: "https://instagram.com/vikas"
+  },
+  {
+    name: "Abhinav Maurya",
+    role: "Design Team",
+    image: "24.png",
+    linkedin: "https://www.linkedin.com/in/abhinav-maurya-356136315",
+    github: <FaGithub />,
+    insta: "https://instagram.com/aarav"
+  },
+  {
+    name: "Ansh Pratap",
+    role: "Design Team",
+    image: "22.png",
+    linkedin: "https://www.linkedin.com/in/ansh-pratap-93083133b",
+    github: <FaGithub />,
+    insta: "https://instagram.com/sneha"
+  },
+  {
+    name: "Kapil Singh",
+    role: "Design Team",
+    image: "12.png",
+    linkedin: "https://www.linkedin.com/in/kapil-singh-8a6574203",
+    github: <FaGithub />,
+    insta: "https://instagram.com/pooja"
+  },
+  {
+    name: "Manasvi Goel",
+    role: "Design Team",
+    image: "11.png",
+    linkedin: "www.linkedin.com/in/manasvigl",
+    github: <FaGithub />,
+    insta: "https://instagram.com/alok"
+  },
+  {
+    name: "Aman Bajpai",
+    role: "Event Management",
+    image: "20.png",
+    linkedin: "https://www.linkedin.com/in/aman-bajpai-651a87266",
+    github: <FaGithub />,
+    insta: "https://instagram.com/kanika"
+  },
+  {
+    name: "Aman Sahi",
+    role: "Event Management",
+    image: "19.png",
+    linkedin: "https://www.linkedin.com/in/aman-sahi-19a106285/",
+    github: <FaGithub />,
+    insta: "https://instagram.com/raghav"
+  },
+  {
+    name: "Aditya Kumar Jha",
+    role: "Event Management",
+    image: "21.png",
+    linkedin: "https://in.linkedin.com/in/adityajha12",
+    github: <FaGithub />,
+    insta: "https://instagram.com/harshdeep"
+  },
+  {
+    name: "Mansi Pandey",
+    role: "Event Management",
+    image: "9.png",
+    linkedin: "https://in.linkedin.com/in/mansi-pandey-50766526b/",
+    github: <FaGithub />,
+    insta: "https://instagram.com/meera"
+  }
+];
 
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
